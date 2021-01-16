@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latestMajor</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\DataUploader\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Report\DhubSolutions.Report.Domain\DhubSolutions.Reports.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

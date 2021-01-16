@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{F29323D9-8AF7-4283-97AE-088AA391B1A9}|IIS Express">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DhubSolutions.PerformanceParticipation.Api/Startup.cs">
+    <Files>
+      <File FileName="DhubSolutions.PerformanceParticipation.Api/Startup.cs" Line="117" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DhubSolutions.PerformanceParticipation" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DhubSolutions.PerformanceParticipation.Api PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

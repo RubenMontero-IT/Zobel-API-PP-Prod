@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latestMajor</LangVersion>
+    <AssemblyName>DhubSolutions.Reports.Domain</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\DataUploader\**" />
+    <Compile Remove="Entities\Extensions\**" />
+    <Compile Remove="Entities\Permissions\**" />
+    <Compile Remove="ObjectValues\**" />
+    <Compile Remove="Repositories\**" />
+    <EmbeddedResource Remove="Entities\DataUploader\**" />
+    <EmbeddedResource Remove="Entities\Extensions\**" />
+    <EmbeddedResource Remove="Entities\Permissions\**" />
+    <EmbeddedResource Remove="ObjectValues\**" />
+    <EmbeddedResource Remove="Repositories\**" />
+    <None Remove="Entities\DataUploader\**" />
+    <None Remove="Entities\Extensions\**" />
+    <None Remove="Entities\Permissions\**" />
+    <None Remove="ObjectValues\**" />
+    <None Remove="Repositories\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\Base\IReport.cs" />
+    <Compile Remove="Entities\Base\IReportElement.cs" />
+    <Compile Remove="Entities\Base\IReportTemplate.cs" />
+    <Compile Remove="Entities\Base\IReportTemplateElement.cs" />
+    <Compile Remove="Entities\ReportElementPermission.cs" />
+    <Compile Remove="Entities\ReportPermission.cs" />
+    <Compile Remove="Entities\ReportTemplateActivePeriod.cs" />
+    <Compile Remove="Entities\ReportTemplateElementPermission.cs" />
+    <Compile Remove="Entities\ReportTemplatePermission.cs" />
+    <Compile Remove="Entities\TemplateSettings.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Common\Core\DhubSolutions.Core.Domain\DhubSolutions.Core.Domain.csproj" />
+    <ProjectReference Include="..\Core.Common\DhubSolutions.Common.Domain\DhubSolutions.Common.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
